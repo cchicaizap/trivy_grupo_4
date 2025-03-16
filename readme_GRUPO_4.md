@@ -1,4 +1,12 @@
 #Readme Grupo 4
+
+###INTEGRANTES:
+- Carlos Chicaiza
+- Jessica Llumiguano
+- Emilio Mayorga
+- Juan Vizuete
+
+
 ##Introducción
 Trivy es una herramienta que permite escánear vulnerabilidades de codigo de imagenes contenedoras.
 
