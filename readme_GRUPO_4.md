@@ -21,7 +21,7 @@ La herramienta destaca por su facilidad de uso y velocidad en el escaneo, permit
 Al ser un proyecto de código abierto respaldado por [Aqua Security](https://www.aquasec.com/), Trivy cuenta con una comunidad activa que contribuye a su mejora continua y ofrece soporte a los usuarios.
 
 ## Referencias
-•	Github. (2024). Análisis de infraestructura (contenedores) con Trivy. Recuperado de https://raul-profesor.github.io/Curso-especialista-ciberseguridad/segdef/trivy/  
-•	Quind. (2024). Trivy, herramienta todo-en-uno opensource implementada en CI/CD con Azure DevOps. Recuperado de https://quind.io/blog/devops/trivy-herramienta-todo-en-uno-opensource-implementada-en-ci-cd-con-azure-devops/ 
-•	IberAsync. (2023). Análisis de contenedores utilizando TRIVY. Recuperado de https://iberasync.es/analisis-de-contenedores-utilizando-trivy/ 
-•	Bluetab. (2023). Análisis de vulnerabilidades en contenedores con trivy. Recuperado de https://usuarioperu.com/2023/01/28/trivy-herramienta-de-seguridad-para-contenedores/ 
+- Github. (2024). Análisis de infraestructura (contenedores) con Trivy. Recuperado de https://raul-profesor.github.io/Curso-especialista-ciberseguridad/segdef/trivy/
+- Quind. (2024). Trivy, herramienta todo-en-uno opensource implementada en CI/CD con Azure DevOps. Recuperado de https://quind.io/blog/devops/trivy-herramienta-todo-en-uno-opensource-implementada-en-ci-cd-con-azure-devops/
+- IberAsync. (2023). Análisis de contenedores utilizando TRIVY. Recuperado de https://iberasync.es/analisis-de-contenedores-utilizando-trivy/
+- Bluetab. (2023). Análisis de vulnerabilidades en contenedores con trivy. Recuperado de https://usuarioperu.com/2023/01/28/trivy-herramienta-de-seguridad-para-contenedores/ 
