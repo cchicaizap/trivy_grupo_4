@@ -1,5 +1,7 @@
+
 #Readme Grupo 4
 ##Introducción
+
 
 Trivy
 
@@ -7,15 +9,18 @@ Funcionalidad: Trivy es una herramienta de código abierto que se utiliza para e
 
 Características destacadas:
 
+
   Escaneo de imágenes de contenedores: Detecta vulnerabilidades en paquetes del sistema operativo y bibliotecas incluidas en las imágenes de contenedores.
 
   Análisis de dependencias: Examina las dependencias de proyectos en lenguajes como Ruby, JavaScript y Python en busca de vulnerabilidades conocidas.
 
   Integración en CI/CD: Se integra fácilmente en pipelines de integración y entrega continua, permitiendo automatizar el escaneo de seguridad antes del despliegue.
 
+
 Trivy es ideal para equipos de desarrollo y operaciones que utilizan tecnologías de contenedores y desean garantizar que sus imágenes y dependencias estén libres de vulnerabilidades antes de su implementación.
 
 Referencias:
+
 
   Análisis de contenedores utilizando TRIVY – IberAsync.es - https://iberasync.es/analisis-de-contenedores-utilizando-trivy/
 
@@ -61,6 +66,7 @@ Complementando con Autoruns y TCPView:
 Si bien Trivy es ideal para escaneo de vulnerabilidades en contenedores y código, herramientas como Autoruns y TCPView pueden ser útiles en seguridad de sistemas Windows, permitiendo monitorear procesos sospechosos y conexiones de red en tiempo real.
 
 
+
 Hemos escogido a Trivy como la herramienta principal para el análisis de seguridad debido a su enfoque integral en la detección de vulnerabilidades en contenedores, imágenes de Docker, infraestructura como código (IaC) y dependencias de software. En un entorno donde la seguridad en la nube y la automatización de DevSecOps son fundamentales, Trivy se posiciona como una solución eficiente, rápida y altamente adaptable a los flujos de trabajo modernos.
 
 Además, su compatibilidad con SBOM (Software Bill of Materials) y su capacidad para identificar fallos en configuraciones de seguridad en Kubernetes, Terraform y Docker lo convierten en la mejor opción para evaluar la postura de seguridad en entornos cloud-native.
@@ -75,5 +81,7 @@ Trivy es la mejor opción para análisis de vulnerabilidades en entornos moderno
 
 Autoruns y TCPView pueden ser herramientas complementarias en auditorías de seguridad en Windows, pero no reemplazan la capacidad de análisis de Trivy en contenedores y código.
 
+
 Recomendación:
 Si el entorno de seguridad se enfoca en infraestructura en la nube y DevSecOps, Trivy es la herramienta principal a utilizar. En cambio, si el análisis se realiza en endpoints Windows o redes corporativas, Autoruns y TCPView pueden ser útiles como herramientas secundarias.
+
