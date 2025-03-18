@@ -3,7 +3,8 @@
 ##Introducción
 
 
-Trivy
+
+                                                                                                    Trivy
 
 Funcionalidad: Trivy es una herramienta de código abierto que se utiliza para escanear vulnerabilidades en contenedores, imágenes de Docker, repositorios de código y configuraciones de infraestructura como código (IaC). Su objetivo principal es identificar vulnerabilidades en paquetes y dependencias antes de que las aplicaciones se desplieguen en producción.
 
