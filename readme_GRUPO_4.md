@@ -1,7 +1,12 @@
-
 # Readme Grupo 4
 ## Introducción
 Trivy es una herramienta que permite escánear vulnerabilidades de codigo de imagenes contenedoras.
+
+###INTEGRANTES:
+- Carlos Chicaiza
+- Jessica Llumiguano
+- Emilio Mayorga
+- Juan Vizuete
 
 ## Descripcion
 Trivy es un escáner de seguridad integral y versátil desarrollado por Aqua Security. Está diseñado para identificar vulnerabilidades y problemas de configuración en una amplia gama de objetivos, incluyendo imágenes de contenedores, sistemas de archivos, repositorios de código, máquinas virtuales, clústeres de Kubernetes y entornos en la nube. 
@@ -39,13 +44,29 @@ Es versatil y puede escanear contenedores, sistemas de archivos, repositorios de
 Está diseñado teniendo en cuenta la automatización, trivy integra sin problemas en las canalización de CI/CD, lo que permite comprobaciones de seguridad en los flujos de trabajo de desarrollo. Además, su rapidez en el escaneo permite integrarlo eficientemente en las canalizaciones de CI/CD sin compormeter los tiempos de entrega.
 
 
-## Características destacadas
+## Características destacadas (Justificación Técnica)
 
-- Escaneo de imágenes de contenedores: Detecta vulnerabilidades en paquetes del sistema operativo y bibliotecas incluidas en las imágenes de contenedores.
+### 1. Cobertura Integral
+Trivy detecta vulnerabilidades en:
+- Paquetes de sistemas operativos (Alpine, RHEL, CentOS, etc.).
+- Dependencias de aplicaciones gestionadas por Bundler, Composer, npm, yarn, entre otros.
+- Configuraciones incorrectas en Kubernetes y archivos IaC (Infrastructure as Code).
 
-- Análisis de dependencias: Examina las dependencias de proyectos en lenguajes como Ruby, JavaScript y Python en busca de vulnerabilidades conocidas.
+### 2. Integración en CI/CD
+Trivy se integra fácilmente en pipelines de Integración Continua y Entrega Continua (CI/CD), facilitando la detección temprana de vulnerabilidades durante el ciclo de desarrollo del software.
 
-- Integración en CI/CD: Se integra fácilmente en pipelines de integración y entrega continua, permitiendo automatizar el escaneo de seguridad antes del despliegue.
+### 3. Simplicidad y Rapidez
+La herramienta destaca por su facilidad de uso y velocidad en el escaneo, permitiendo a los desarrolladores y equipos de seguridad identificar vulnerabilidades sin complicaciones.
+
+### 4. Comunidad Activa y Soporte
+Al ser un proyecto de código abierto respaldado por [Aqua Security](https://www.aquasec.com/), Trivy cuenta con una comunidad activa que contribuye a su mejora continua y ofrece soporte a los usuarios.
+
+### 5. Escaneo de imágenes de contenedores
+Detecta vulnerabilidades en paquetes del sistema operativo y bibliotecas incluidas en las imágenes de contenedores.
+
+### 6. Análisis de dependencias
+Examina las dependencias de proyectos en lenguajes como Ruby, JavaScript y Python en busca de vulnerabilidades conocidas.
+
 
 Trivy es ideal para equipos de desarrollo y operaciones que utilizan tecnologías de contenedores y desean garantizar que sus imágenes y dependencias estén libres de vulnerabilidades antes de su implementación.
 
@@ -105,3 +126,4 @@ Si el entorno de seguridad se enfoca en infraestructura en la nube y DevSecOps, 
 - Guía de Autoruns en Microsoft Learn - https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
 - Aquasecurity. Trivy. Recuperado de https://github.com/aquasecurity/trivy
 - Trivy. Repositorio de codigo. Recuperado de https: https://trivy.dev/latest/docs/target/repository/
+
