@@ -1,5 +1,43 @@
 
-Funcionalidad: Trivy es una herramienta de código abierto que se utiliza para escanear vulnerabilidades en contenedores, imágenes de Docker, repositorios de código y configuraciones de infraestructura como código (IaC). Su objetivo principal es identificar vulnerabilidades en paquetes y dependencias antes de que las aplicaciones se desplieguen en producción.
+# Readme Grupo 4
+## Introducción
+Trivy es una herramienta que permite escánear vulnerabilidades de codigo de imagenes contenedoras.
+
+## Descripcion
+Trivy es un escáner de seguridad integral y versátil desarrollado por Aqua Security. Está diseñado para identificar vulnerabilidades y problemas de configuración en una amplia gama de objetivos, incluyendo imágenes de contenedores, sistemas de archivos, repositorios de código, máquinas virtuales, clústeres de Kubernetes y entornos en la nube. 
+
+## Funcionalidades principales
+
+### •	Escaneo de imágenes de contenedores
+Trivy analiza imágenes de contenedores en busca de vulnerabilidades conocidas en paquetes del sistema operativo y dependencias de aplicaciones. Soporta múltiples sistemas operativos y gestores de paquetes, como Alpine, RHEL, CentOS, Debian, Ubuntu, npm, yarn, entre otros. 
+
+### •	Análisis de sistemas de archivos y repositorios de código
+Permite escanear sistemas de archivos locales y repositorios de código (tanto locales como remotos) para detectar vulnerabilidades en dependencias y configuraciones. Es compatible con diversos lenguajes y entornos de desarrollo. 
+
+### •	Detección de problemas de configuración y secretos
+Identifica problemas de configuración en infraestructuras como código (IaC) y busca información sensible o secretos que puedan estar expuestos en el código o en la configuración. 
+
+### •	Análisis de licencias de software
+Trivy evalúa las licencias de las dependencias utilizadas, ayudando a garantizar el cumplimiento con las políticas de licencias y evitando posibles conflictos legales. 
+
+### •	Operador Trivy para Kubernetes
+El Trivy Operator extiende las capacidades de Trivy al entorno de Kubernetes, realizando escaneos continuos de seguridad en clústeres y generando informes detallados sobre los recursos y configuraciones.  
+
+## Justificación Técnica
+
+### 1. Escaneo Rápido
+Trivy es conocido por su velocidad y precisión en la detección de vulnerabilidades, minimizando los falsos positivos que pueden afectar la confianza de los usuarios en las herramientas de seguridad
+
+### 2. Actualizaciones continuas de la DB
+Trivy actualiza regularmente su base de datos de vulnerabilidades lo que proporciona información de seguridad más reciente para un escaneo mas efectivo. Esto es crucial para identificar y mitigar amenzas emergentes de manera proactiva.
+
+### 3. Soporte multientono
+Es versatil y puede escanear contenedores, sistemas de archivos, repositorios de código y configuraciones de infraestructura. Esta versatilidad permite una detección exhaustiva de vulnerabilidades en múltiples componenetes del entorno de desarrollo y producción
+
+### 4. Integración CI/CD
+
+Está diseñado teniendo en cuenta la automatización, trivy integra sin problemas en las canalización de CI/CD, lo que permite comprobaciones de seguridad en los flujos de trabajo de desarrollo. Además, su rapidez en el escaneo permite integrarlo eficientemente en las canalizaciones de CI/CD sin compormeter los tiempos de entrega.
+
 
 ## Características destacadas
 
@@ -65,3 +103,5 @@ Si el entorno de seguridad se enfoca en infraestructura en la nube y DevSecOps, 
 - Análisis de contenedores utilizando TRIVY – IberAsync.es - https://iberasync.es/analisis-de-contenedores-utilizando-trivy/
 - Container vulnerability scanning with Trivy – Bluetab - https://www.bluetab.net/en/container-vulnerability-scanning-with-trivy/
 - Guía de Autoruns en Microsoft Learn - https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+- Aquasecurity. Trivy. Recuperado de https://github.com/aquasecurity/trivy
+- Trivy. Repositorio de codigo. Recuperado de https: https://trivy.dev/latest/docs/target/repository/
