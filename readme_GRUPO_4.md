@@ -10,6 +10,7 @@ Trivy actualiza regularmente su base de datos de vulnerabilidades lo que proporc
 Es versatil y puede escanear contenedores, sistemas de archivos, repositorios de código y configuraciones de infraestructura. Esta versatilidad permite una detección exhaustiva de vulnerabilidades en múltiples componenetes del entorno de desarrollo y producción
 
 ### 4. Integración CI/CD
+
 Está diseñado teniendo en cuenta la automatización, trivy integra sin problemas en las canalización de CI/CD, lo que permite comprobaciones de seguridad en los flujos de trabajo de desarrollo. Además, su rapidez en el escaneo permite integrarlo eficientemente en las canalizaciones de CI/CD sin compormeter los tiempos de entrega.
 
 ## Referencias
