@@ -1,1 +1,0 @@
-![Portswigger](./image/portswigger.png)
